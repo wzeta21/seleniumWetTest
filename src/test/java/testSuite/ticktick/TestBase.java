@@ -2,9 +2,7 @@ package testSuite.ticktick;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
-import page.ticktick.LoginSection;
-import page.ticktick.MainMenu;
-import page.ticktick.MainPage;
+import page.ticktick.*;
 import session.Session;
 
 public class TestBase {
@@ -14,6 +12,8 @@ public class TestBase {
     public MainPage mainPage = new MainPage();
     public LoginSection loginSection = new LoginSection();
     public MainMenu mainMenu = new MainMenu();
+    public TaskSection taskSection = new TaskSection();
+    public AddListPanel addListPanel = new AddListPanel();
     @BeforeEach
     public void openBrowser(){
         Session.getInstance().getBrowser().get(GetProperties.getInstance().getHost());

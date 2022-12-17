@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ba4a8cf-7fa6-4bc5-a62b-4b201f4decc5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/browser/Chrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browser/Chrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/browser/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/browser/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testSuite/ticktick/CrudTaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testSuite/ticktick/CrudTaskTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testSuite/ticktick/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testSuite/ticktick/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,5 +112,26 @@
       <updated>1671162915243</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testSuite/ticktick/CrudTaskTest.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/page/ticktick/TaskSection.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/testSuite/ticktick/CrudTaskTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
