@@ -19,3 +19,7 @@ fill task name: -->//input[@id='edit-project-name']
 click save: //button[text()='Save']
 displary tast: //p[text()='zetaTask']
 
+edit:
+
+click en tres puntos: //p[text()='ZetaTask1671256400403']//following-sibling::div//following-sibling::div[contains(@class, 'flex-none')]
+
