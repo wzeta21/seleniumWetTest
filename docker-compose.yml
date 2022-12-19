@@ -27,3 +27,5 @@ services:
       - chrome
     environment:
       - NAME_TEST=CrudTaskTest
+    volumes:
+      - ./resport/:/var/lib/jenkins/workspace/SeleniumWebTest/build/test-results/test/:rw

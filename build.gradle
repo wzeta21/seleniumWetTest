@@ -13,12 +13,18 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
     implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.7.2'
+    // https://mvnrepository.com/artifact/org.testng/testng
+    testImplementation group: 'org.testng', name: 'testng', version: '7.7.0'
 }
 
 test {
     print 'Automation Web UI Test are executing......'
     useJUnitPlatform()
     testLogging {
-        events "passed","failed"
+        events "standardOut", "started", "passed", "skipped", "failed", "standardError"
+        exceptionFormat "full"
+        showExceptions true
+        showCauses true
+        showStackTraces true
     }
 }
