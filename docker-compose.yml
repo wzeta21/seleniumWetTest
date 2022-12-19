@@ -28,4 +28,4 @@ services:
     environment:
       - NAME_TEST=CrudTaskTest
     volumes:
-      - ./resport/:/var/lib/jenkins/workspace/SeleniumWebTest/build/test-results/test/*.xml:rw
+      - ./resport/:/tmp/selenium/build/test-results/test/*.xml:rw
