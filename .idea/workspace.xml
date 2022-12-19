@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7ba4a8cf-7fa6-4bc5-a62b-4b201f4decc5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ticktick.md" beforeDir="false" afterPath="$PROJECT_DIR$/ticktick.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/ticktick.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/ticktick.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
