@@ -28,4 +28,4 @@ services:
     environment:
       - NAME_TEST=CrudTaskTest
     volumes:
-      - ./resport/:/tmp/selenium/build/test-results/test/*.xml:rw
+      - ./report/:/tmp/selenium/:rw
