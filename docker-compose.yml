@@ -22,20 +22,12 @@ services:
   automation-web:
     build: .
     container_name: automation-web
+    ports:
+    - "8085:8080"
     depends_on:
       - selenium-hub
       - chrome
     environment:
       - NAME_TEST=CrudTaskTest
-    volumes:
-      - $PWD/report:/tmp/selenium/:ro
-
-  jenkins:
-    container_name: jenkins
-    image: jenkins:2.60.3
-    ports:
-    - "8085:8080"
-    volumes:
-      - $PWD/jenkins_data:/var/jenkins_home
     
 
