@@ -29,5 +29,7 @@ services:
       - chrome
     environment:
       - NAME_TEST=CrudTaskTest
+    volumes:
+      - $PWD/report:/tmp/selenium/:ro
     
 

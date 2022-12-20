@@ -5,5 +5,8 @@
 
 docker-compose up -d --build
 docker-compose down --remove-orphans
+
+docker exec -it debian bash
+
 # excecute jenkins as admin
 1. sudo cat /var/lib/jenkins/secrets/initialAdminPassword | docker exec automation-web cat /var/jenkins_home/secrets/initialAdminPassword
