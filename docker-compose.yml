@@ -22,8 +22,6 @@ services:
   automation-web:
     build: .
     container_name: automation-web
-    ports:
-    - "8085:8080"
     depends_on:
       - selenium-hub
       - chrome
